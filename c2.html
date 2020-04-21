@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SHEIN Cut And Sew Tee</title>
+	<script type="text/javascript">
+	var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+
+		function buy()
+		{
+		alert("Thank you for buying out product");	
+		}
+
+</script>
+</head>
+<body>
+
+<h1 style="font-family: Arial black;text-align: center;font-size: 50px;">S H E I N</h1>
+<hr>
+	<marquee direction="right" scrollamount="10" loop="10"><p style="text-align: center; font-size: 50px; background-color: #c168aa; color: white;">BUY 2 GET 40% OFF</p></marquee>
+
+<hr>
+<form>
+	<a href="main.html"><input type="button" value="Home"></a>
+
+	<a href="exclusive.html"><input type="button" value="Exclusives"></a>
+
+	<a href="gift_card.html"><input type="button" value="E-Gift Cards"></a>
+
+	<a href="register.html"><input type="button" value="Register"></a>
+</form>
+<hr>
+
+
+	<center>
+
+<img class="mySlides" src="c2a.png" width="300" height="400">
+<img class="mySlides" src="c2b.png" width="300" height="400">
+<img class="mySlides" src="c2c.png" width="300" height="400">
+<img class="mySlides" src="c2d.png" width="300" height="400">
+
+<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+	</center>
+
+	SHEIN Slit Side Asymmetrical Neck Top
+	<br><br>
+	Original Rate: <font color="red"><del>Rs.900</del></font>
+	<br><br>
+	Discounted Rate: <font color="blue">Rs.850</font>
+	<br><br>
+	<form action="buy.html" method="post">
+		<input type="radio" name="size" value="xs">XS
+		<input type="radio" name="size" value="s">S
+		<input type="radio" name="size" value="m">M
+		<input type="radio" name="size" value="l">L
+<br><br>
+		Qty 
+		<select name="qty">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+		</select>
+<br><br>
+
+		<input type="button" name="addtobag" onclick="buy(qty)" value="BUY" ></h1>
+	</form>
+
+	<br><br>
+
+	<table border="1" cellpadding="5">
+		<tr>
+			<th colspan="2">Description</th>
+		</tr>
+
+		<tr>
+			<td>Colour</td>
+			<td>Pink</td>
+		</tr>
+
+		<tr>
+			<td>Material</td>
+			<td>97%Polyster 3%Spandex</td>
+		</tr>
+
+		<tr>
+			<td>Style</td>
+			<td>Casual</td>
+		</tr>
+
+		<tr>
+			<td>Sleeve Length</td>
+			<td>Long Sleeve</td>
+		</tr>
+
+		<tr>
+			<td>Neck Line</td>
+			<td>Assymetrical Neck</td>
+		</tr>
+
+		<tr>
+			<td>Pattern Type</td>
+			<td>Plan</td>
+		</tr>
+
+		<tr>
+			<td>Decoration</td>
+			<td>Cold Shoulder</td>
+		</tr>
+		
+		<tr>
+			<td>Fabric</td>
+			<td>Very Stretchy</td>
+		</tr>
+
+		<tr>
+			<td>Fit Type</td>
+			<td>Regular Fit</td>
+		</tr>
+
+		<tr>
+			<td>Length</td>
+			<td>Regular</td>
+		</tr>
+
+		
+	</table>
+
+	<br><br><br><br><br>
+
+<table cellspacing="5" cellpadding="7">
+
+		<tr>
+			<th>COMPANY INFO</th>
+			<th>HELP & SUPPORT</th>
+			<th>CUSTOMER CARE</th>
+		</tr>
+		<tr>
+			<td>About Shein</td>
+			<td>Shipping Info</td>
+			<td>Contact Us</td>
+		</tr>
+		<tr>
+			<td>Fashion Blogger</td>
+			<td>How to Track</td>
+			<td>Payment Method</td>
+		</tr>
+	</table>
+	<br>
+	<h2 align="center">FIND US ON</h2>
+		<center>
+			<a href="https://www.facebook.com/sheinindia/"><img src="fb.png" width="50px" height="50px"></a>
+
+			<a href="https://www.instagram.com/shein_in/"><img src="insta.png" width="50px" height="50px"></a>
+
+			<a href="https://twitter.com/SheIn_official"><img src="twitter.png" width="50px" height="50px"></a>
+
+			<a href="https://www.youtube.com/c/sheinofficial"><img src="youtube.png" width="50px" height="50px"></a>
+
+			<a href="https://www.snapchat.com/add/sheinofficial"><img src="snapchat.png" width="50px" height="50px"></a>
+		</center>
+
+</body>
+</html>
